@@ -3,7 +3,7 @@
 body {
     font-family: 'Poppins', Arial, sans-serif;
     background-color: #f2f2f2;
-    color: black
+    color: black;
     margin: 0;
     padding: 0;
 }
@@ -154,4 +154,13 @@ footer {
 .social-icons li {
     display: inline-block;
     margin-right: 20px; /* Espaçamento horizontal entre as imagens */
+}
+
+
+/* Estilo para centralizar a imagem no card e diminuir em 75% */
+.card-img-top {
+    width: 60%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
 }
