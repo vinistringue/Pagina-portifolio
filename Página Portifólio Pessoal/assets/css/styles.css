@@ -1,0 +1,157 @@
+/* Estilos gerais */
+
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: black
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Barra de navegação */
+
+.navbar {
+    background-color: #3498db;
+    color: #fff;
+    padding: 15px 0;
+}
+
+.navbar-brand {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.nav-link {
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Cabeçalho da seção Sobre */
+
+#about {
+    background-color: #fff;
+    padding: 50px 0;
+}
+
+#about h2 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #777;
+}
+
+/* Cartões de projetos */
+
+.card {
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    transition: transform 0.3s ease-in-out;
+    background-color: #fff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.card-text {
+    font-size: 16px;
+    color: #777;
+}
+
+/* Botões dos cartões */
+
+.card .btn {
+    background-color: #3498db;
+    color: #fff;
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out;
+    border: none;
+    border-radius: 5px;
+}
+
+.card .btn:hover {
+    background-color: #2980b9;
+}
+
+/* Seção de Habilidades */
+
+#skills {
+    background-color: #f2f2f2;
+    padding: 50px 0;
+}
+
+#skills h2 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#skills li {
+    font-size: 18px;
+    color: #333;
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+/* Seção Contato */
+
+#contact {
+    color: #fff;
+    padding: 50px 0;
+}
+
+#contact h2 {
+    font-size: 36px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+#contact p {
+    font-size: 18px;
+    color: #fff;
+}
+
+#contact a {
+    color: #3498db;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+#contact a:hover {
+    color: #2980b9;
+}
+
+/* Rodapé */
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Adicione isso ao seu arquivo CSS */
+.social-icons li {
+    display: inline-block;
+    margin-right: 20px; /* Espaçamento horizontal entre as imagens */
+}
