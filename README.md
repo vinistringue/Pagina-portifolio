@@ -1,6 +1,6 @@
-# Portfólio de Vinícius Stringue de Paula
+# Portifólio de Vinícius Stringue de Paula
 
-Bem-vindo ao meu portfólio! Este é um espaço onde compartilho minha jornada e projetos relacionados à programação, inteligência artificial e muito mais. Deixe-me contar um pouco sobre mim:
+Bem-vindo ao meu portifólio! Este é um espaço onde compartilho minha jornada e projetos relacionados à programação, inteligência artificial e muito mais. Deixe-me contar um pouco sobre mim:
 
 ## Sobre Mim
 
