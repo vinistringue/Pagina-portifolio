@@ -17,7 +17,7 @@ body {
 /* Barra de navegação */
 
 .navbar {
-    background-color: #2980b9;
+    background-color: #3498db;
     color: #fff;
     padding: 15px 0;
 }
@@ -81,7 +81,7 @@ body {
 /* Botões dos cartões */
 
 .card .btn {
-    background-color: #2980b9;
+    background-color: #3498db;
     color: #fff;
     font-weight: bold;
     transition: background-color 0.3s ease-in-out;
@@ -117,7 +117,7 @@ body {
 
 #contact {
     color: #fff;
-    padding: 50px 0;
+    padding: 30px 0;
 }
 
 #contact h2 {
@@ -127,7 +127,7 @@ body {
 }
 
 #contact p {
-    font-size: 18px;
+    font-size: 20px;
     color: #fff;
 }
 
@@ -146,14 +146,14 @@ body {
 footer {
     background-color: #333;
     color: #fff;
-    padding: 10px 0;
+    padding: 40px 0;
     text-align: center;
 }
 
 /* Adicione isso ao seu arquivo CSS */
 .social-icons li {
     display: inline-block;
-    margin-right: 20px; /* Espaçamento horizontal entre as imagens */
+    margin-right: 30px; /* Espaçamento horizontal entre as imagens */
 }
 
 

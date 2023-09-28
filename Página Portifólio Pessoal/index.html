@@ -1,290 +1,403 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Meu Portfólio</title>
     <!-- Adicionando o link para o Bootstrap CSS -->
     <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        rel="stylesheet"
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     />
     <!-- Adicionando um estilo CSS personalizado -->
     <link rel="stylesheet" href="assets/css/styles.css" />
+    <!-- Adicionando o link para o FontAwesome para ícones -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha384-RpXnRlzdU05P2OpeW5f5zj8z5F5L5j5w5l5u5.5t5q5.5m5f5M5O5I5"
+        crossorigin="anonymous"
+    />
+    <!-- Adicionando o favicon -->
+    <link rel="icon" href="assets/images/logo.png" type="image/x-icon">
     <style>
-      /* Estilo para tornar o texto da página preto */
-      body {
-        color: black;
-      }
+        /* Estilo para tornar o texto da página preto */
+        body {
+            color: black;
+        }
+        /* Estilo para habilidades interativas */
+        .skill {
+            text-align: center;
+            padding: 20px;
+            transition: transform 0.2s;
+        }
+        .skill:hover {
+            transform: scale(1.1);
+        }
+        .skill-icon {
+            font-size: 48px;
+            margin-bottom: 10px;
+        }
     </style>
-  </head>
-  <body>
-    <!-- Barra de navegação -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#" style="margin-right: 2px"
-        >Meu Portfólio</a
-      >
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarNav"
-        aria-controls="navbarNav"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
+</head>
+<body>
+<!-- Barra de navegação -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">
+        <i class="fas fa-briefcase"></i> Meu Portfólio
+    </a>
+    <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+    >
         <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="#about">Sobre</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#projects">Projetos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#skills">Habilidades</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact">Contato</a>
-          </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#about">Sobre</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#projects">Projetos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#skills">Habilidades</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contact">Contato</a>
+            </li>
         </ul>
-      </div>
-    </nav>
+    </div>
+</nav>
 
-    <!-- Seção Sobre -->
-    <section id="about" class="py-5">
-      <div class="container">
+<!-- Seção Sobre -->
+<section id="about" class="py-5">
+    <div class="container">
         <h2 class="text-center font-weight-bold" style="font-size: 28px">
-          Sobre Mim
+            Sobre Mim
         </h2>
         <p>
-          E aí, pessoal! Sou o Vinícius, um amante do Java que adora transformar
-          linhas de código em soluções incríveis. Tenho me aventurado em
-          projetos pessoais com Java, ChatGPT, MySQL, Git e GitHub, explorando o
-          mundo da programação. Se você procura alguém com paixão por Java e
-          vontade de aprender, tamo junto!
+            Olá, sou Vinícius, um entusiasta apaixonado pela interação entre a
+            tecnologia e a criatividade, com 26 anos de idade. Você pode me chamar
+            de um Engenheiro de Prompt para IA, mas minha verdadeira paixão reside
+            em explorar os limites da inteligência artificial para melhorar o
+            mundo.
         </p>
-        <p>🔭 Atualmente trabalhando em projetos pessoais</p>
-        <p>🌱 Estudando Técnico em Desenvolvimento de Sistemas pelo Senac-RS</p>
-        <p>🌱 Estudando Java POO/FullStack/CHAT-GPT for Devs</p>
-      </div>
-    </section>
+        <p>
+            Ao longo da minha jornada, descobri uma ferramenta incrível: o Chat
+            GPT. Com sua ajuda, desenvolvo soluções criativas e inovadoras para
+            resolver problemas complexos no mundo da programação. Para mim, cada
+            linha de código é uma oportunidade de transformar desafios em soluções
+            inteligentes.
+        </p>
+        <p>
+            Acredito que a tecnologia é a chave para desbloquear o potencial
+            humano, e é por isso que estou constantemente explorando novas
+            maneiras de aplicar a IA para criar impacto positivo. Minha jornada
+            como Engenheiro de Prompt para IA é apenas o começo, e estou ansioso
+            para as emocionantes possibilidades que o futuro reserva.
+        </p>
+        <p>🔭 Atualmente, estou envolvido em projetos pessoais, aplicando o Chat-GPT para desenvolver soluções criativas e resolver desafios.</p>
+        <p>🌱 Estou cursando Técnico em Desenvolvimento de Sistemas no Senac-RS.</p>
+        <p>🌱 Estou estudando Java POO/FullStack/CHAT-GPT for Devs</p>
+        <p>
+            Neste espaço, convido você a explorar meu portfólio, onde compartilho
+            projetos e experiências que refletem minha paixão pelo desenvolvimento
+            tecnológico e pela IA. Juntos, podemos moldar um futuro mais
+            inteligente e inspirador.
+        </p>
+    </div>
+</section>
 
-    <!-- Seção Projetos -->
-    <section id="projects" class="bg-light py-5">
-      <div class="container">
+<!-- Seção Projetos -->
+<section id="projects" class="bg-light py-5">
+    <div class="container">
         <h2 class="text-center font-weight-bold" style="font-size: 28px">
-          Projetos Anteriores
+            Projetos Anteriores
         </h2>
         <!-- Exemplo de projeto 1 -->
         <div class="row">
-          <div class="col-md-6">
-            <div class="card mb-4">
-              <img
-                src="assets/images/projeto1.png"
-                class="card-img-top"
-                alt="Projeto 1"
-              />
-              <div class="card-body">
-                <h5 class="card-title">PARAÍSO OASIS RESORT</h5>
-                <p class="card-text">
-                  A página web do Paraíso Oasis Resort serve para apresentar e promover nossos luxuosos hotéis e facilitar suas reservas, proporcionando o serviço de qualidade.
-                </p>
-                <a
-                  href="https://github.com/vinistringue/Hoteis-website"
-                  class="btn btn-primary"
-                  >Detalhes</a
-                >
-              </div>
+            <div class="col-md-6">
+                <div class="card mb-4">
+                    <img
+                            src="assets/images/projeto1.png"
+                            class="card-img-top"
+                            alt="Projeto 1"
+                    />
+                    <div class="card-body">
+                        <h5 class="card-title">PARAÍSO OASIS RESORT</h5>
+                        <p class="card-text">
+                            A página web do Paraíso Oasis Resort serve para apresentar e
+                            promover nossos luxuosos hotéis e facilitar suas reservas,
+                            proporcionando o serviço de qualidade.
+                        </p>
+                        <a
+                                href="https://github.com/vinistringue/Hoteis-website"
+                                class="btn btn-primary"
+                        >Detalhes</a
+                        >
+                    </div>
+                </div>
             </div>
-          </div>
-          <!-- Exemplo de projeto 2 -->
-          <div class="col-md-6">
-            <div class="card mb-4">
-              <img
-                src="assets/images/projeto2.png"
-                class="card-img-top"
-                alt="Projeto 2"
-              />
-              <div class="card-body">
-                <h5 class="card-title">KIDS</h5>
-                <p class="card-text">
-                  Site para uma empresa de festa e recreação infantil. A empresa oferece serviços de recreação com teatro, brinquedos e apresentações educativas e espera que o site ajude a agilizar os agendamentos.
-                </p>
-                <a href="https://github.com/vinistringue/Pagina-portifolio" class="btn btn-primary">Detalhes</a>
-              </div>
+            <!-- Exemplo de projeto 2 -->
+            <div class="col-md-6">
+                <div class="card mb-4">
+                    <img
+                            src="assets/images/projeto2.png"
+                            class="card-img-top"
+                            alt="Projeto 2"
+                    />
+                    <div class="card-body">
+                        <h5 class="card-title">KIDS</h5>
+                        <p class="card-text">
+                            Site para uma empresa de festa e recreação infantil. A empresa
+                            oferece serviços de recreação com teatro, brinquedos e
+                            apresentações educativas e espera que o site ajude a agilizar
+                            os agendamentos.
+                        </p>
+                        <a
+                                href="https://github.com/vinistringue/Pagina-portifolio"
+                                class="btn btn-primary"
+                        >Detalhes</a
+                        >
+                    </div>
+                </div>
             </div>
-          </div>
-          <!-- Exemplo de projeto 3 -->
-          <div class="col-md-6">
-            <div class="card mb-4">
-              <img
-                src="assets/images/projeto3.png"
-                class="card-img-top"
-                alt="Projeto 2"
-              />
-              <div class="card-body">
-                <h5 class="card-title">EVENTIFY</h5>
-                <p class="card-text">
-                  O Eventify é um sistema web inovador criado para simplificar o cadastro de eventos, com foco na experiência do usuários, sendo um programa simples e intuitivo.
-                </p>
-                <a href="https://github.com/vinistringue/Eventify" class="btn btn-primary">Detalhes</a>
-              </div>
+            <!-- Exemplo de projeto 3 -->
+            <div class="col-md-6">
+                <div class="card mb-4">
+                    <img
+                            src="assets/images/projeto3.png"
+                            class="card-img-top"
+                            alt="Projeto 2"
+                    />
+                    <div class="card-body">
+                        <h5 class="card-title">EVENTIFY</h5>
+                        <p class="card-text">
+                            O Eventify é um sistema web inovador criado para simplificar o
+                            cadastro de eventos, com foco na experiência do usuários,
+                            sendo um programa simples e intuitivo.
+                        </p>
+                        <a
+                                href="https://github.com/vinistringue/Eventify"
+                                class="btn btn-primary"
+                        >Detalhes</a
+                        >
+                    </div>
+                </div>
             </div>
-          </div>
-          <!-- Exemplo de projeto 4 -->
-          <div class="col-md-6">
-            <div class="card mb-4">
-              <img
-                src="assets/images/projeto4.png"
-                class="card-img-top"
-                alt="Projeto 2"
-              />
-              <div class="card-body">
-                <h5 class="card-title">FINANÇA FÁCIL</h5>
-                <p class="card-text">
-                  Site para uma financeira local. A empresa oferece serviços de empréstimo, financiamentos e antecipação de recebidos aos seus clientes, além de outros serviços financeiros.
-                </p>
-                <a href="https://github.com/vinistringue/Financeira-website" class="btn btn-primary">Detalhes</a>
-              </div>
+            <!-- Exemplo de projeto 4 -->
+            <div class="col-md-6">
+                <div class="card mb-4">
+                    <img
+                            src="assets/images/projeto4.png"
+                            class="card-img-top"
+                            alt="Projeto 2"
+                    />
+                    <div class="card-body">
+                        <h5 class="card-title">FINANÇA FÁCIL</h5>
+                        <p class="card-text">
+                            Site para uma financeira local. A empresa oferece serviços de
+                            empréstimo, financiamentos e antecipação de recebidos aos seus
+                            clientes, além de outros serviços financeiros.
+                        </p>
+                        <a
+                                href="https://github.com/vinistringue/Financeira-website"
+                                class="btn btn-primary"
+                        >Detalhes</a
+                        >
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
-    </section>
-
-    <!-- Seção Habilidades -->
-<section id="skills" class="py-5">
-  <div class="container">
-    <h2 class="text-center font-weight-bold" style="font-size: 28px; margin-bottom: 40px;">Habilidades</h2>
-    <div class="row">
-      <div class="col-md-4">
-        <div class="skill">
-          <svg class="skill-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm0-10h-2v6h2v-6z"/>
-          </svg>
-          <h3>Metodologia Ágil</h3>
-          <p>Scrum e Kanban</p>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="skill">
-          <svg class="skill-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm0-10h-2v6h2v-6z"/>
-          </svg>
-          <h3>Linguagem de Programação</h3>
-          <p>Java</p>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="skill">
-          <svg class="skill-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm0-10h-2v6h2v-6z"/>
-          </svg>
-          <h3>Spring Boot</h3>
-          <p>(em desenvolvimento/estudando)</p>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="skill">
-          <svg class="skill-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm0-10h-2v6h2v-6z"/>
-          </svg>
-          <h3>Banco de Dados</h3>
-          <p>MySQL</p>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="skill">
-          <svg class="skill-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm0-10h-2v6h2v-6z"/>
-          </svg>
-          <h3>Versionamento</h3>
-          <p>Git e GitHub</p>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="skill">
-          <svg class="skill-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm0-10h-2v6h2v-6z"/>
-          </svg>
-          <h3>Inteligência Artificial</h3>
-          <p>Chat GPT</p>
-        </div>
-      </div>
     </div>
-  </div>
 </section>
 
-
-
-    <!-- Seção Contato (Rodapé) -->
-    <footer class="bg-dark text-light py-5">
-      <div class="container">
+<!-- Seção Habilidades -->
+<section id="skills" class="py-5">
+    <div class="container">
         <h2
-          id="contact"
-          class="text-center font-weight-bold"
-          style="font-size: 28px"
+                class="text-center font-weight-bold"
+                style="font-size: 28px; margin-bottom: 40px"
         >
-          Contato
+            Habilidades
+        </h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="skill">
+                    <svg
+                            class="skill-icon"
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24"
+                    >
+                        <path
+                                d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm0-10h-2v6h2v-6z"
+                        />
+                    </svg>
+                    <h3>Metodologia Ágil</h3>
+                    <p>Scrum e Kanban</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="skill">
+                    <svg
+                            class="skill-icon"
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24"
+                    >
+                        <path
+                                d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm0-10h-2v6h2v-6z"
+                        />
+                    </svg>
+                    <h3>Linguagem de Programação</h3>
+                    <p>Java</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="skill">
+                    <svg
+                            class="skill-icon"
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24"
+                    >
+                        <path
+                                d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm0-10h-2v6h2v-6z"
+                        />
+                    </svg>
+                    <h3>Spring Boot</h3>
+                    <p>(em desenvolvimento/estudando)</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="skill">
+                    <svg
+                            class="skill-icon"
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24"
+                    >
+                        <path
+                                d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm0-10h-2v6h2v-6z"
+                        />
+                    </svg>
+                    <h3>Banco de Dados</h3>
+                    <p>MySQL</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="skill">
+                    <svg
+                            class="skill-icon"
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24"
+                    >
+                        <path
+                                d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm0-10h-2v6h2v-6z"
+                        />
+                    </svg>
+                    <h3>Versionamento</h3>
+                    <p>Git e GitHub</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="skill">
+                    <svg
+                            class="skill-icon"
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24"
+                    >
+                        <path
+                                d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm0-10h-2v6h2v-6z"
+                        />
+                    </svg>
+                    <h3>Inteligência Artificial</h3>
+                    <p>Chat GPT</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Seção Contato (Rodapé) -->
+<footer class="bg-dark text-light py-5">
+    <div class="container">
+        <h2
+                id="contact"
+                class="text-center font-weight-bold"
+                style="font-size: 28px"
+        >
+            Contato
         </h2>
         <p class="text-center">
-          Entre em contato comigo através do meu e-mail:
-          <a href="https://mail.google.com/mail/u/0/#inbox" class="text-primary"
+            Entre em contato comigo através do meu e-mail:
+            <a href="https://mail.google.com/mail/u/0/#inbox" class="text-primary"
             ><i class="fas fa-envelope"></i>
-            vinicius.stringue.depaula@gmail.com</a
-          >
+                vinicius.stringue.depaula@gmail.com</a
+            >
         </p>
         <p class="text-center">Conecte-se comigo nas redes sociais:</p>
         <ul class="list-unstyled text-center social-icons">
-          <li>
-            <a href="https://github.com/vinistringue" class="text-primary">
-              <img
-                src="assets/images/github.png"
-                alt="GitHub"
-                width="32"
-                height="32"
-              />
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://www.linkedin.com/in/vinicius-stringue-de-paula-810033150/"
-              class="text-primary"
-            >
-              <img
-                src="assets/images/linkedin.png"
-                alt="LinkedIn"
-                width="32"
-                height="32"
-              />
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://api.whatsapp.com/send?phone=+5511949937080&text=Ol%C3%A1%2C+tudo+bom%3F+Vim+pelo+seu+Portif%C3%B3lio"
-              class="text-primary"
-            >
-              <img
-                src="assets/images/whatsapp.png"
-                alt="WhatsApp"
-                width="32"
-                height="32"
-              />
-            </a>
-          </li>
+            <li>
+                <a href="https://github.com/vinistringue" class="text-primary">
+                    <img
+                            src="assets/images/github.png"
+                            alt="GitHub"
+                            width="32"
+                            height="32"
+                    />
+                </a>
+            </li>
+            <li>
+                <a
+                        href="https://www.linkedin.com/in/vinicius-stringue-de-paula-810033150/"
+                        class="text-primary"
+                >
+                    <img
+                            src="assets/images/linkedin.png"
+                            alt="LinkedIn"
+                            width="32"
+                            height="32"
+                    />
+                </a>
+            </li>
+            <li>
+                <a
+                        href="https://api.whatsapp.com/send?phone=+5511949937080&text=Ol%C3%A1%2C+tudo+bom%3F+Vim+pelo+seu+Portif%C3%B3lio"
+                        class="text-primary"
+                >
+                    <img
+                            src="assets/images/whatsapp.png"
+                            alt="WhatsApp"
+                            width="32"
+                            height="32"
+                    />
+                </a>
+            </li>
 
-          <!-- Adicione mais links de redes sociais aqui -->
+            <!-- Adicione mais links de redes sociais aqui -->
         </ul>
-      </div>
-    </footer>
+    </div>
+</footer>
 
-    <!-- Adicionando o link para o Bootstrap JS (requer jQuery) e o arquivo JS personalizado -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script src="script.js"></script>
-  </body>
+<!-- Adicionando o link para o jQuery e o Bootstrap JS -->
+<script
+        src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"
+></script>
+<script
+        src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"
+        integrity="sha384-pzjw8f+ua5ai2koy5a1F7f0EKwqc4F5Fp5l5p5u5v5r5g5u5k5N5p5u5v5r5g5u5k5"
+        crossorigin="anonymous"
+></script>
+<script
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-pzjw8f+ua5ai2koy5a1F7f0EKwqc4F5Fp5l5p5u5v5r5g5u5k5N5p5u5v5r5g5u5k5"
+        crossorigin="anonymous"
+></script>
+</body>
 </html>
