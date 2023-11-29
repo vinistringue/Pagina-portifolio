@@ -7,8 +7,9 @@ Bem-vindo ao meu portifólio! Este é um espaço onde compartilho minha jornada 
 Meu nome é Vinícius Stringue de Paula, e sou um entusiasta apaixonado pela interação entre tecnologia e criatividade. Tenho 26 anos e sou um Engenheiro de Prompt para IA. Minha verdadeira paixão é explorar os limites da inteligência artificial para melhorar o mundo.
 
 - 💻 Atualmente, estou envolvido em projetos pessoais, aplicando o Chat-GPT para desenvolver soluções criativas e resolver desafios.
-- 📚 Estou cursando Técnico em Desenvolvimento de Sistemas no Senac-RS.
-- 🌱 Estou estudando Java POO/FullStack/CHAT-GPT for Devs.
+- 📚 Curso Técnico em Desenvolvimento de Sistemas no Senac-RS (Concluído).
+- 📚 Estou cursando Tecnologia em Análise e Desenvolvimento de Sistemas no Senac-RS (Início 02/2024).
+- 🌱 Estou estudando CHAT-GPT for Devs.
 
 ## Projetos Anteriores
 

@@ -1,41 +1,247 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Portfólio - Projetos</title>
-    <!-- Adicione o link para o Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <!-- Adicione um estilo CSS personalizado -->
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <!-- Barra de navegação (pode ser copiada da index.html) -->
-    <!-- Conteúdo da página de projetos -->
-    <section id="projects" class="py-5">
-        <div class="container">
-            <h2 class="text-center">Projetos Anteriores</h2>
-            <!-- Exemplo de projeto -->
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="card mb-4">
-                        <img src="assets/images/project1.jpg" class="card-img-top" alt="Projeto 1">
-                        <div class="card-body">
-                            <h5 class="card-title">Projeto 1</h5>
-                            <p class="card-text">Uma descrição curta do Projeto 1 vai aqui. Este é um exemplo de como você pode destacar seus projetos anteriores.</p>
-                            <a href="#" class="btn btn-primary">Detalhes</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- Adicione mais projetos semelhantes aqui -->
-            </div>
-        </div>
-    </section>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meu Portifólio - Projetos</title>
 
-    <!-- Adicione os links para o Bootstrap JS (requer jQuery) e o arquivo JS personalizado -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script src="script.js"></script>
-</body>
-</html>
+    <!-- Adicionando o link para o Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <!-- Adicionando um estilo CSS personalizado -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <!-- Adicionando o link para o FontAwesome para ícones -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha384-RpXnRlzdU05P2OpeW5f5zj8z5F5L5j5w5l5u5.5t5q5.5m5f5M5O5I5"
+      crossorigin="anonymous"
+    />
+    <!-- Adicionando o favicon -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  </head>
+
+  <body>
+    <!-- Barra de navegação -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">
+        <i class="fas fa-briefcase" aria-hidden="true"></i> Meu Portfolio
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Início</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projetos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contato</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Seção Projetos -->
+    <section id="projects" class="bg-light py-5">
+      <div class="container">
+        <h2 class="text-center font-weight-bold" style="font-size: 28px">
+          Projetos
+        </h2>
+        <!-- Exemplo de projeto 1 -->
+        <div class="row">
+          <div class="col-md-6">
+            <div class="card mb-4">
+              <img
+                src="assets/images/projeto1.png"
+                class="card-img-top"
+                alt="Projeto 1"
+              />
+              <div class="card-body">
+                <h5 class="card-title">PARAÍSO OASIS RESORT</h5>
+                <p class="card-text">
+                  A página web do Paraíso Oasis Resort serve para apresentar e
+                  promover nossos luxuosos hotéis e facilitar suas reservas,
+                  proporcionando o serviço de qualidade.
+                </p>
+                <a
+                  href="https://github.com/vinistringue/Hoteis-website"
+                  class="btn btn-primary"
+                  >Detalhes</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- Exemplo de projeto 2 -->
+          <div class="col-md-6">
+            <div class="card mb-4">
+              <img
+                src="assets/images/projeto2.png"
+                class="card-img-top"
+                alt="Projeto 2"
+              />
+              <div class="card-body">
+                <h5 class="card-title">KIDS</h5>
+                <p class="card-text">
+                  Site para uma empresa de festa e recreação infantil. A empresa
+                  oferece serviços de recreação com teatro, brinquedos e
+                  apresentações educativas e espera que o site ajude a agilizar
+                  os agendamentos.
+                </p>
+                <a
+                  href="https://github.com/vinistringue/Pagina-portifolio"
+                  class="btn btn-primary"
+                  >Detalhes</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- Exemplo de projeto 3 -->
+          <div class="col-md-6">
+            <div class="card mb-4">
+              <img
+                src="assets/images/projeto3.png"
+                class="card-img-top"
+                alt="Projeto 2"
+              />
+              <div class="card-body">
+                <h5 class="card-title">EVENTIFY</h5>
+                <p class="card-text">
+                  O Eventify é um sistema web inovador criado para simplificar o
+                  cadastro de eventos, com foco na experiência do usuários,
+                  sendo um programa simples e intuitivo.
+                </p>
+                <a
+                  href="https://github.com/vinistringue/Eventify"
+                  class="btn btn-primary"
+                  >Detalhes</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- Exemplo de projeto 4 -->
+          <div class="col-md-6">
+            <div class="card mb-4">
+              <img
+                src="assets/images/projeto4.png"
+                class="card-img-top"
+                alt="Projeto 2"
+              />
+              <div class="card-body">
+                <h5 class="card-title">FINANÇA FÁCIL</h5>
+                <p class="card-text">
+                  Site para uma financeira local. A empresa oferece serviços de
+                  empréstimo, financiamentos e antecipação de recebidos aos seus
+                  clientes, além de outros serviços financeiros.
+                </p>
+                <a
+                  href="https://github.com/vinistringue/Financeira-website"
+                  class="btn btn-primary"
+                  >Detalhes</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- Exemplo de projeto 5 -->
+          <div class="col-md-6">
+            <div class="card mb-4">
+              <img
+                src="assets/images/imagem.jpg"
+                class="card-img-top"
+                alt="Projeto 2"
+              />
+              <div class="card-body">
+                <h5 class="card-title">RECANTO TERCEIRO LAGO</h5>
+                <p class="card-text">
+                    Bem-vindo ao projeto Recanto Terceiro Lago, um site para o aluguel de uma chácara incrível à beira da Represa Guarapiranga. Este projeto oferece uma experiência única de hospedagem, combinando luxo e natureza para criar momentos inesquecíveis.
+                </p>
+                <a
+                  href="https://github.com/vinistringue/RecantoTerceiroLago"
+                  class="btn btn-primary"
+                  >Detalhes</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Seção Contato (Rodapé) -->
+    <footer class="bg-dark text-light py-5">
+        <div class="container">
+          <h2
+            id="contact"
+            class="text-center font-weight-bold"
+            style="font-size: 28px"
+          >
+            Contato
+          </h2>
+          <p class="text-center">
+            Entre em contato comigo através do meu e-mail:
+            <a href="https://mail.google.com/mail/u/0/#inbox" class="text-primary"
+              ><i class="fas fa-envelope" aria-hidden="true"></i>
+              vinicius.stringue.depaula@gmail.com</a
+            >
+          </p>
+          <p class="text-center">Conecte-se comigo nas redes sociais:</p>
+          <ul class="list-unstyled text-center social-icons">
+            <li>
+              <a href="https://github.com/vinistringue" class="text-primary">
+                <img
+                  src="assets/images/github.png"
+                  alt="GitHub"
+                  width="32"
+                  height="32"
+                />
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/vinicius-stringue-de-paula-810033150/"
+                class="text-primary"
+              >
+                <img
+                  src="assets/images/linkedin.png"
+                  alt="LinkedIn"
+                  width="32"
+                  height="32"
+                />
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://api.whatsapp.com/send?phone=+5511949937080&text=Ol%C3%A1%2C+tudo+bom%3F+Vim+pelo+seu+Portfolio"
+                class="text-primary"
+              >
+                <img
+                  src="assets/images/whatsapp.png"
+                  alt="WhatsApp"
+                  width="32"
+                  height="32"
+                />
+              </a>
+            </li>
+            <!-- Adicione mais links de redes sociais aqui -->
+          </ul>
+        </div>
+      </footer>
+  
+      <!-- Adicione os links para o Bootstrap JS (requer jQuery) e o arquivo JS personalizado -->
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+      <script src="script.js"></script>
+    </body>
+    </html>

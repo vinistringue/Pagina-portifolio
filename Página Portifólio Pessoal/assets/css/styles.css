@@ -235,3 +235,21 @@ footer {
         transform: translateX(0);
     }
 }
+        /* Estilo para tornar o texto da página preto */
+        body {
+            color: black;
+        }
+        /* Estilo para habilidades interativas */
+        .skill {
+            text-align: center;
+            padding: 20px;
+            transition: transform 0.2s;
+        }
+        .skill:hover {
+            transform: scale(1.1);
+        }
+        .skill-icon {
+            font-size: 48px;
+            margin-bottom: 10px;
+        }
+    
