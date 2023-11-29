@@ -39,7 +39,7 @@ Minhas habilidades técnicas incluem:
 - Spring Boot (em desenvolvimento/estudando)
 - Banco de dados MySQL
 - Git para versionamento
-- Inteligência Artificial Chat GPT
+- Inteligência Artificial Chat GPT para Devs
 
 ## Contato
 
